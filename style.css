@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background-color: #004b79;
+}
+
+.calcularNota {
+    margin: auto;
+    margin-top: 200px;
+    width: 300px;
+    height: 600px;
+    background-color: #FFF;
+    border-radius: 20px;
+}
+
+.blockTitle {
+    font: bold 30px Arial;
+    background-color: #bebe00;
+    text-align: center;
+    padding: 15px;
+    color: #FFF;
+    border-radius: 20px 20px 0 0;
+}
+
+.blockContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blockContent span {
+    font: normal 15px arial;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.blockContent input {
+    text-align: center;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+#media {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#btn {
+    margin-top: 20px;
+    background-color: #bebe00;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font: bold 20px Arial;
+}
+
+#btn:hover {
+    background-color: #9b9b00;
+}
+
+/* REMOVER SETAR DO INPUT NUMBER */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+/* REMOVER SETAR DO INPUT NUMBER */
